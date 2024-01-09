@@ -1,16 +1,2 @@
-# cached_video_player_test
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Simple caching implementation for video files using video_player package and flutter_cache_manager package to play network video till caching is complete and later switch to cached video. Cache handling is simple 
+with a number of max items cached being 30 and cacheStalePeriod being 7 days.
